@@ -10,8 +10,8 @@ const carrousel1 = document.getElementById('carrousel1')
 const carrousel2 = document.getElementById('carrousel2')
 const templateCard = document.getElementById('template-card-col3').content
 const templateCard4 = document.getElementById('template-card-col4').content
-//const templateFooter = document.getElementById('template-footer').content
-//const templateCarrito = document.getElementById('template-carrito').content
+const templateFooter = document.getElementById('template-footer').content
+const templateCarrito = document.getElementById('template-carrito').content
 const fragment = document.createDocumentFragment()
 
 
@@ -197,7 +197,12 @@ const setCarrito = objeto =>{
 const pintarCarrito = () =>{
     console.log(carrito)
     Object.values(carrito).forEach(producto =>{
+        templateCarrito.querySelector('cart_product').content = producto.thumbnailUrl
         templateCarrito.querySelector('cart_product').content = producto.thumbnailUrl  
+        templateCarrito.querySelector('cart_product').content = producto.thumbnailUrl  
+        templateCarrito.querySelector('cart_product').content = producto.thumbnailUrl  
+        templateCarrito.querySelector('cart_product').content = producto.thumbnailUrl  
+
     
     })
 

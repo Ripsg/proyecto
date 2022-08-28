@@ -1,0 +1,152 @@
+[
+    {
+    "precio": 40000,
+      "id": 1,
+      "title": "Attack on titan",
+      "thumbnailUrl": "images/home/anime2.png"
+    },
+    {
+      "precio": 124000,
+      "id": 2,
+      "title": "Oufit completo",
+      "thumbnailUrl": "images/home/anime3.png"
+    },
+    {
+      "precio": 40000,
+      "id": 3,
+      "title": "Toga - My hero academy",
+      "thumbnailUrl": "images/home/animePng.png"
+    },
+    {
+      "precio": 40000,
+      "id": 4,
+      "title": "Promise Neverland",
+      "thumbnailUrl": "images/catalogo/anime1.png"
+    },
+    {
+      "precio": 40000,
+      "id": 5,
+      "title": "Demon Slayer",
+      "thumbnailUrl": "images/catalogo/anime2.png"
+    },
+    {
+      "precio": 162000,
+      "id": 6,
+      "title": "Outfit Completo",
+      "thumbnailUrl": "images/catalogo/anime3.png"
+    },
+    {
+        "precio": 41000,
+        "id": 7,
+        "title": "Goku - Dragon ball",
+        "thumbnailUrl": "images/catalogo/camisa2.png"
+    },
+    {
+        "precio": 40000,
+        "id": 8,
+        "title": "Attack On Titan",
+        "thumbnailUrl": "images/home/anime2.png"
+    },
+    {
+        "precio": 40000,
+        "id": 9,
+        "title": "Promise Neverland",
+        "thumbnailUrl": "images/catalogo/anime1.png"
+    },
+    {
+        "precio": 40000,
+        "id": 10,
+        "title": "Demon Slayer",
+        "thumbnailUrl": "images/catalogo/anime2.png"
+    },
+    {
+        "precio": 124000,
+        "id": 11,
+        "title": "Falda - Camisa",
+        "thumbnailUrl": "images/home/anime3.png"
+    },
+    {
+        "precio": 105000,
+        "id": 12,
+        "title": "Camisa - Gorra",
+        "thumbnailUrl": "images/catalogo/outfit.png"
+    },
+    {
+        "precio": 162000,
+        "id": 13,
+        "title": "Camisa -  Falda - Medias",
+        "thumbnailUrl": "images/catalogo/anime3.png"
+    },
+    {
+        "precio": 134000,
+        "id": 14,
+        "title": "Buzo - Falda",
+        "thumbnailUrl": "images/catalogo/outfit2.png"
+    },
+    {
+        "precio": 83000,
+        "id": 15,
+        "title": "Naruto",
+        "thumbnailUrl": "images/catalogo/buzo2.png"
+    },
+    {
+        "precio": 85000,
+        "id": 16,
+        "title": "Boku No Hero: Academy",
+        "thumbnailUrl": "images/catalogo/buzo3.png"
+    },
+    {
+        "precio": 84000,
+        "id": 17,
+        "title": "Attack On Titan",
+        "thumbnailUrl": "images/catalogo/buzo5png.png"
+    },
+    {
+        "precio": 83000,
+        "id": 18,
+        "title": "Dragon ball",
+        "thumbnailUrl": "images/catalogo/buzo4.png"
+    },
+    {
+        "precio": 40000,
+        "id": 19,
+        "title": "Evangelion",
+        "thumbnailUrl": "images/catalogo/prenda1.png"
+    },
+    {
+        "precio": 40000,
+        "id": 20,
+        "title": "Luffy - One Piece",
+        "thumbnailUrl": "images/catalogo/prenda2.png"
+    },
+    {
+        "precio": 40000,
+        "id": 21,
+        "title": "My hero academy",
+        "thumbnailUrl": "images/catalogo/prenda3.png"
+    },
+    {
+        "precio": 40000,
+        "id": 22,
+        "title": "Levi -Attack On Titan",
+        "thumbnailUrl": "images/catalogo/prenda4.png"
+    },
+    {
+        "precio": 40000,
+        "id": 23,
+        "title": "Death Note",
+        "thumbnailUrl": "images/catalogo/prenda5.png"
+    },
+    {
+        "precio": 42000,
+        "id": 24,
+        "title": "Naruto uzumaki",
+        "thumbnailUrl": "images/catalogo/prenda7.png"
+    }
+   
+      
+
+
+
+
+  ]

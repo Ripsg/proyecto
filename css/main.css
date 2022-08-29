@@ -1628,6 +1628,12 @@ h2.title {
 .cart_product {
   display: block;
   margin: 15px -70px 10px 25px;
+ 
+
+}
+.img-productos{
+  width: 150px;
+  height: 150px;
 }
 
 .cart_quantity_button a {

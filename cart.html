@@ -122,92 +122,19 @@
 						<tr class="cart_menu">
 							<td class="image">Item</td>
 							<td class="description"></td>
-							<td class="price">Price</td>
-							<td class="quantity">Quantity</td>
+							<td class="price">Precio</td>
+							<td class="quantity">Cantidad</td>
 							<td class="total">Total</td>
 							<td></td>
 						</tr>
 					</thead>
-					<tbody>
+					<tbody id="productosCarrito">
 						
 						
-								<tr id="productoCarrito" >
-									<td class="cart_product">
-										<a href=""><img src="images/cart/carrito3.png" alt=""></a>
-									</td>
-									<td class="cart_description">
-										<h4><a href="">Tokyo Revengers</a></h4>
-										<p>ID producto: 1089772</p>
-									</td>
-									<td class="cart_price">
-										<p>40.000</p>
-									</td>
-									<td class="cart_quantity">
-										<div class="cart_quantity_button">
-											<a class="cart_quantity_up" href=""> + </a>
-											<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-											<a class="cart_quantity_down" href=""> - </a>
-										</div>
-									</td>
-									<td class="cart_total">
-										<p class="cart_total_price">40.000</p>
-									</td>
-									<td class="cart_delete">
-										<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-									</td>
-								</tr>
+								
 						
 
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/carrito2.png" alt=""></a>
-							</td>
-							<td class="cart_description">
-								<h4><a href="">Oufit Ahegao</a></h4>
-								<p>ID producto: 1089772</p>
-							</td>
-							<td class="cart_price">
-								<p>162.000</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">162.000</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
-						<tr>
-							<td class="cart_product">
-								<a href=""><img src="images/cart/carrito1.png" alt=""></a>
-							</td>
-							<td class="cart_description">
-								<h4><a href="">Goku - Dragon Ball</a></h4>
-								<p>ID producto: 1089772</p>
-							</td>
-							<td class="cart_price">
-								<p>83.000</p>
-							</td>
-							<td class="cart_quantity">
-								<div class="cart_quantity_button">
-									<a class="cart_quantity_up" href=""> + </a>
-									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-									<a class="cart_quantity_down" href=""> - </a>
-								</div>
-							</td>
-							<td class="cart_total">
-								<p class="cart_total_price">83.000</p>
-							</td>
-							<td class="cart_delete">
-								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-							</td>
-						</tr>
+						
 					</tbody>
 				</table>
 			</div>
@@ -256,14 +183,8 @@
 				<div class="col-sm-6">
 					<div class="total_area">
 						
-						<div id="footerCarrito">
-							<ul >
-								<li>Subtotal del carrito <span>285.000</span></li>
-								<li>Costo de envio <span>Gratis</span></li>
-								<li>Total <span>285.000</span></li>
-							</ul>
-								<a class="btn btn-default update" href="">Actualizar</a>
-								<a class="btn btn-default check_out" href="">Pagar</a>
+						<div id="footer-carrito">
+						
 						</div>
 						
 					</div>
@@ -271,44 +192,54 @@
 			</div>
 		</div>
 	</section><!--/#do_action-->
-	<!-- <template id="template-carrito">
+	<template id="template-carrito">
+		<tr class="producto-subido">
+			<td class="cart_product">
+				<a href=""><img class="img-responsive img-productos" alt=""></a>
+			</td>
+			<td class="cart_description">
+				<h4><a href="">nombre</a></h4>
+				<p id="id-producto" class="clase-producto">ID</p>
+			</td>
+			<td class="cart_price">
+				<p id="precioUnidad">precioUnidad</p>
+			</td>
+			<td class="cart_quantity">
+				<div class="cart_quantity_button">
+					
+					<a class="cart_quantity_up" href="cart.html" >+</a>
+					
+					<input class="cart_quantity_input" type="tel" name="quantity" value="1" autocomplete="off" size="2" readonly>
+					<a class="cart_quantity_down" href="cart.html" >-</a>
+				</div>
+			</td>
+			<td class="cart_total">
+				<p id="precioTotal" class="cart_total_price">precioTotal</p>
+			</td>
+			<td id="delete-carrito" class="cart_delete">
+				<a class="cart_quantity_delete borrar_carta" href="cart.html" >x</a>
+
+				
+			</td>
+
+		</tr>
 		
-		<td class="cart_product">
-			<a href=""><img  alt=""></a>
-		</td>
-		<td class="cart_description">
-			<h4><a href="">nombre</a></h4>
-			<p>ID</p>
-		</td>
-		<td class="cart_price">
-			<p>precioUnidad</p>
-		</td>
-		<td class="cart_quantity">
-			<div class="cart_quantity_button">
-				<a class="cart_quantity_up" href=""> + </a>
-				<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
-				<a class="cart_quantity_down" href=""> - </a>
-			</div>
-		</td>
-		<td class="cart_total">
-			<p class="cart_total_price">precioTotal</p>
-		</td>
-		<td class="cart_delete">
-			<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
-		</td>
+		
 	
 	</template>
 	<template id="template-footer">
 		<div class="total_area">
 			<ul>
-			<li>Subtotal del carrito <span>285.000</span></li>
+			<li>Subtotal del carrito <span id="subTotal">subTotal</span></li>
 			<li>Costo de envio <span>Gratis</span></li>
-			<li>Total <span>285.000</span></li>
+			<li>Total <span id="precioTotal">total</span></li>
 			</ul>
-			<a class="btn btn-default update" href="">Actualizar</a>
 			<a class="btn btn-default check_out" href="">Pagar</a>
 		</div>
-	</template> -->
+	</template> 
+	
+
+	</div>
 	
 
 	
@@ -322,7 +253,7 @@
 	<script src="js/jquery.scrollUp.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/main.js"></script>
-	<script src="js/carga.js" ></script>
+	<script src="js/carrito.js" ></script>
 	
 </body>
 </html>
